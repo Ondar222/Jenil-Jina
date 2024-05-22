@@ -255,3 +255,31 @@ body{
 .card__premium__main__container a{
     color: #D6C49A;
 }
+
+
+@media(max-width: 430px) {
+    .package {
+     max-width: 100%;
+
+    }
+    
+    .head__main {
+     width: 100%;
+     
+    }
+    
+    .package__container {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+
+   
+    }
+    
+}
+
+@media(max-width: 360px){
+
+}
+
+

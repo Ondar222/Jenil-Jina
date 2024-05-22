@@ -7,7 +7,7 @@ let button = document.querySelector('#button');
 
 let users = {};
 
-function User(name, email, password, repeat__password, regisered) {
+function User(name, email, password, repeat__password) {
     this.name = name;
     this.email = email;
     this.password = password;

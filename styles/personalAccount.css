@@ -337,3 +337,31 @@ details[open] summary::after {
     width: fit-content;
     height: fit-content;
 }
+
+
+@media(max-width: 430px) {
+    .personalAccount {
+        margin: 0 auto;
+        width: 100%;
+   
+    }
+    
+    .personalAccount__container {
+        width: 100%;
+      
+    }
+}
+
+
+
+@media(max-width: 360px) {
+    .personalAccount {
+        width: 100%;
+   
+    }
+    
+    .personalAccount__container {
+        width: 100%;
+      
+    }
+}

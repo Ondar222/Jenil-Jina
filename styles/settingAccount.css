@@ -14,7 +14,7 @@ body {
 
 }
 
-.settingAccount{
+.settingAccount {
     margin: 0 auto;
     width: 360px;
     height: 952px;
@@ -25,33 +25,38 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    gap: 20px;
 }
 
 .settingAccount__head {
     display: flex;
     width: 100%;
+    
 }
 
 .settingAccount__head__title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
+    padding: 10px 20px;
 }
 
 .settingAccount__back {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
     gap: 10px;
 }
 
-.settingAccount__back span{
-    font-size: 20px;
+.settingAccount__back__back {
     display: flex;
-    flex-direction: column;
-    justify-content: start;
+    flex-direction: row;
+    gap: 10px;
 }
+
+
 
 .settingAccount__back p {
     display: flex;
@@ -60,13 +65,13 @@ body {
     width: 84px;
     height: 37px;
     color: #1D1E1B;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 18px;
     cursor: pointer;
 }
 
-.email{
+.email {
     font-size: 10px;
     font-weight: 400;
     line-height: 12px;
@@ -83,7 +88,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 50px;
+    margin: 0 auto;
     border-radius: 5px;
 }
 
@@ -109,7 +114,7 @@ body {
     margin-top: 20px;
 }
 
-.auth__form__field{
+.auth__form__field {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -131,17 +136,17 @@ body {
     font-size: 10px;
 }
 
-.auth__form_butons{
+.auth__form_butons {
     display: flex;
     flex-direction: row;
     justify-content: end;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-   
+
 }
 
-.auth__button{
+.auth__button {
     width: 123px;
     height: 26px;
     max-height: 100%;
@@ -152,5 +157,36 @@ body {
     color: #FFFFFF;
     cursor: pointer;
     border: none;
-  
+}
+
+@media(max-width: 430px) {
+    .settingAccount {
+        width: 100%;
+    }
+
+    .settingAccount__container {
+        width: 100%;
+    }
+
+    .settingAccount__head {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .settingAccount__head {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between
+    }
+
+    .auth__form__container {
+        width: 100%;
+    }
+
+    .auth__form__fields {
+        width: 100%;
+    }
 }
