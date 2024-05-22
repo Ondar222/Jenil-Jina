@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Inter", "san-serif";
+}
+
+body {
+    background-color: #EFEFEC;
+}
+
+.economyPackage {
+    margin: 0 auto;
+    width: 360px;
+    height: 773px;
+}
+
+.economyPackage__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.economyPackage__head {
+    display: flex;
+    flex-direction: column;
+    background-color: #0A9C39;
+    width: 100%;
+    height: 253px;
+}
+
+.economyPackage__head__title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px 10px;
+    color: #FFFF;
+    cursor: pointer;
+}
+
+.economyPackage__head__title__href {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #FFFF;
+}
+
+.economyPackage__head__title span {
+    width: 7px;
+    height: 13px;
+    color: #FFFF;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.economyPackage__head__bottom {
+    display: flex;
+    flex-direction: column;
+    color: #FFFF;
+    padding: 20px 10px;
+    gap: 20px;
+}
+
+.economyPackage__head__bottom p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.economyPackage__head__money {
+    display: flex;
+    flex-direction: row;
+}
+
+.economyPackage__head__money p {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.economyPackage__footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+
+.economyPackage__footer__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.economyPackage__footer__content p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+}
+
+.card__calendar__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+
+.economyPackage__card__first {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 60px;
+    background-color: #0A9C39;
+    color: #FFFF;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.economyPackage__card {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 60px;
+    background-color: #FFFF;
+    color: #0A9C39;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.economyPackage__btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 92%;
+}
+
+.btn__score:hover {
+
+  color: red;
+  cursor: pointer;
+}
+
+.btn__score{
+    width: 90px;
+    height: 31px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    background-color: #0A9C39;
+    color: #FFFF;
+    border: none;
+    cursor: pointer;
+}

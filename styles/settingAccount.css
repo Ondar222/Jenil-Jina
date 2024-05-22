@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Inter", "san-serif";
+}
+
+body {
+    background-color: #EFEFEC;
+
+}
+
+.settingAccount{
+    margin: 0 auto;
+    width: 360px;
+    height: 952px;
+}
+
+.settingAccount__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.settingAccount__head {
+    display: flex;
+    width: 100%;
+}
+
+.settingAccount__head__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.settingAccount__back {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.settingAccount__back span{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.settingAccount__back p {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 84px;
+    height: 37px;
+    color: #1D1E1B;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.email{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    cursor: pointer;
+}
+
+
+
+.auth__form__container {
+    background-color: #FFFF;
+    width: 289px;
+    height: 351px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.auth__form__fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.auth__form__password__repeat {
+    font-size: 11px;
+    color: #1D1D1B;
+    font-weight: bold;
+
+}
+
+
+.auth__info__paragraph {
+    font-size: 11px;
+    color: #1D1D1B;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.auth__form__field{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100%;
+    font-size: 10px;
+}
+
+.auth__form__password__paragraph {
+    color: #BBBDBB;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.auth__text-field__input {
+    width: 246px;
+    height: 26px;
+    font-size: 10px;
+}
+
+.auth__form_butons{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.auth__button{
+    width: 123px;
+    height: 26px;
+    max-height: 100%;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10px;
+    background-color: #0A9C39;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+  
+}

@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Inter", "san-serif";
+}
+
+body{
+    background-color: #EFEFEC;
+   
+}
+
+.main{
+    background-image: url(../img/bg.png);
+   margin: 0 auto;
+   width: 480px;
+   height: 853px;
+   display: flex;
+   flex-direction: column;
+}
+
+.head__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+    width: 60%;
+    height: 20%;
+  
+   
+}
+
+.head__main__title {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.head__main__title h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 64px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.auth__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.auth__form__container {
+    background-color: #FFFF;
+    width: 289px;
+    height: 198px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+.auth__form__fields {
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+  
+}
+
+.auth__form__field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.auth__text-field__label {
+    height: 26px;
+}
+
+.auth__text-field__input {
+    height: 100%;
+}
+.auth__text-field__input__password {
+    width: 100%px;
+    height: 26px;
+}
+
+.auth__form_butons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  
+   
+}
+
+.auth__form_butons_remember{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.auth__remember{
+
+    color: #A0A09F;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.auth__remember__text{
+    color: #A0A09F;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button{
+    width: 123px;
+    height: 26px;
+    max-height: 100%;
+    font-weight: 400;
+    line-height: 10px;
+    background-color: #0A9C39;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+.button a {
+    color: #FFFF;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+.button a:hover {
+    color: red;
+} 
